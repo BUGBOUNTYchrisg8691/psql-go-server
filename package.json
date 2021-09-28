@@ -1,0 +1,27 @@
+{
+  "name": "gofib-w-psql-auth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "pre-commit": "",
+    "commit": "cz",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cz-conventional-changelog": "^3.3.0",
+    "husky": "^7.0.2",
+    "npm-run-all": "^4.1.5",
+    "pinst": "^2.1.6",
+    "pkg-ok": "^2.3.1",
+    "please-upgrade-node": "^3.2.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
